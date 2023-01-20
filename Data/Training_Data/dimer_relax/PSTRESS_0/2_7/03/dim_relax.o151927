@@ -1,0 +1,100 @@
+Note: The following floating-point exceptions are signalling:Note: The following floating-point exceptions are signalling:Note: The following floating-point exceptions are signalling: IEEE_INVALID_FLAG IEEE_INVALID_FLAG IEEE_INVALID_FLAG IEEE_DIVIDE_BY_ZERO IEEE_DIVIDE_BY_ZERONote: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_UNDERFLOW_FLAG IEEE_UNDERFLOW_FLAG IEEE_INVALID_FLAGNote: The following floating-point exceptions are signalling:
+
+Note: The following floating-point exceptions are signalling:Note: The following floating-point exceptions are signalling:Note: The following floating-point exceptions are signalling:
+ IEEE_DIVIDE_BY_ZERONote: The following floating-point exceptions are signalling: IEEE_INVALID_FLAGNote: The following floating-point exceptions are signalling:Note: The following floating-point exceptions are signalling:Note: The following floating-point exceptions are signalling: IEEE_INVALID_FLAG IEEE_INVALID_FLAG IEEE_INVALID_FLAG IEEE_UNDERFLOW_FLAG IEEE_INVALID_FLAGNote: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_INVALID_FLAGNote: The following floating-point exceptions are signalling:Note: The following floating-point exceptions are signalling:Note: The following floating-point exceptions are signalling: IEEE_INVALID_FLAG IEEE_INVALID_FLAGNote: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERONote: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_DIVIDE_BY_ZERONote: The following floating-point exceptions are signalling:
+Note: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERONote: The following floating-point exceptions are signalling:Note: The following floating-point exceptions are signalling: IEEE_INVALID_FLAG IEEE_UNDERFLOW_FLAG IEEE_DIVIDE_BY_ZERO IEEE_INVALID_FLAGNote: The following floating-point exceptions are signalling:Note: The following floating-point exceptions are signalling:Note: The following floating-point exceptions are signalling: IEEE_INVALID_FLAGNote: The following floating-point exceptions are signalling: IEEE_INVALID_FLAG IEEE_DIVIDE_BY_ZERO IEEE_DIVIDE_BY_ZERONote: The following floating-point exceptions are signalling:Note: The following floating-point exceptions are signalling: IEEE_INVALID_FLAGNote: The following floating-point exceptions are signalling:Note: The following floating-point exceptions are signalling:Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAGNote: The following floating-point exceptions are signalling:Note: The following floating-point exceptions are signalling: IEEE_INVALID_FLAG IEEE_UNDERFLOW_FLAG IEEE_UNDERFLOW_FLAGNote: The following floating-point exceptions are signalling:Note: The following floating-point exceptions are signalling: IEEE_INVALID_FLAGNote: The following floating-point exceptions are signalling: IEEE_INVALID_FLAGNote: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_INVALID_FLAG IEEE_INVALID_FLAGNote: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERONote: The following floating-point exceptions are signalling:
+ IEEE_UNDERFLOW_FLAG IEEE_DIVIDE_BY_ZERO IEEE_INVALID_FLAG IEEE_INVALID_FLAG IEEE_INVALID_FLAGNote: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERONote: The following floating-point exceptions are signalling:Note: The following floating-point exceptions are signalling:Note: The following floating-point exceptions are signalling: IEEE_INVALID_FLAG IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_UNDERFLOW_FLAGNote: The following floating-point exceptions are signalling:Note: The following floating-point exceptions are signalling: IEEE_INVALID_FLAG IEEE_INVALID_FLAGNote: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_INVALID_FLAGNote: The following floating-point exceptions are signalling: IEEE_INVALID_FLAGNote: The following floating-point exceptions are signalling:Note: The following floating-point exceptions are signalling:
+ IEEE_INVALID_FLAG IEEE_INVALID_FLAGNote: The following floating-point exceptions are signalling:Note: The following floating-point exceptions are signalling: IEEE_INVALID_FLAGNote: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERONote: The following floating-point exceptions are signalling:
+
+Note: The following floating-point exceptions are signalling:Note: The following floating-point exceptions are signalling: IEEE_INVALID_FLAG IEEE_INVALID_FLAG IEEE_DIVIDE_BY_ZERO IEEE_INVALID_FLAGNote: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERONote: The following floating-point exceptions are signalling:Note: The following floating-point exceptions are signalling:Note: The following floating-point exceptions are signalling: IEEE_INVALID_FLAG
+ IEEE_DIVIDE_BY_ZERO IEEE_DIVIDE_BY_ZERO IEEE_INVALID_FLAGNote: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_INVALID_FLAGNote: The following floating-point exceptions are signalling:
+ IEEE_UNDERFLOW_FLAG IEEE_DIVIDE_BY_ZERO IEEE_DIVIDE_BY_ZERONote: The following floating-point exceptions are signalling: IEEE_DIVIDE_BY_ZERO IEEE_INVALID_FLAG IEEE_UNDERFLOW_FLAGNote: The following floating-point exceptions are signalling: IEEE_INVALID_FLAGNote: The following floating-point exceptions are signalling: IEEE_INVALID_FLAG IEEE_INVALID_FLAG IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG
+
+ IEEE_INVALID_FLAG IEEE_INVALID_FLAG IEEE_DIVIDE_BY_ZERO IEEE_DIVIDE_BY_ZERO IEEE_INVALID_FLAG IEEE_UNDERFLOW_FLAG IEEE_DIVIDE_BY_ZERO IEEE_INVALID_FLAG IEEE_DIVIDE_BY_ZERO IEEE_INVALID_FLAG IEEE_INVALID_FLAG IEEE_DIVIDE_BY_ZERO IEEE_DIVIDE_BY_ZERO IEEE_INVALID_FLAG IEEE_INVALID_FLAG IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_INVALID_FLAG IEEE_INVALID_FLAG IEEE_INVALID_FLAG IEEE_INVALID_FLAG IEEE_DIVIDE_BY_ZERO IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DIVIDE_BY_ZERO IEEE_INVALID_FLAG IEEE_UNDERFLOW_FLAG IEEE_INVALID_FLAG IEEE_INVALID_FLAG IEEE_INVALID_FLAG IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_UNDERFLOW_FLAG IEEE_DIVIDE_BY_ZERO IEEE_INVALID_FLAG
+ IEEE_DIVIDE_BY_ZERO IEEE_INVALID_FLAG
+ IEEE_UNDERFLOW_FLAG IEEE_UNDERFLOW_FLAG IEEE_INVALID_FLAG IEEE_UNDERFLOW_FLAG IEEE_DIVIDE_BY_ZERO
+ IEEE_INVALID_FLAG IEEE_DIVIDE_BY_ZERO IEEE_INVALID_FLAG IEEE_DIVIDE_BY_ZERO IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG
+ IEEE_DIVIDE_BY_ZERO IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_UNDERFLOW_FLAG IEEE_DIVIDE_BY_ZERO
+ IEEE_UNDERFLOW_FLAG IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DIVIDE_BY_ZERO IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_UNDERFLOW_FLAG IEEE_DIVIDE_BY_ZERO IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG
+ IEEE_DIVIDE_BY_ZERO IEEE_DIVIDE_BY_ZERO IEEE_DIVIDE_BY_ZERO IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_UNDERFLOW_FLAG
+ IEEE_UNDERFLOW_FLAG IEEE_DIVIDE_BY_ZERO
+ IEEE_DIVIDE_BY_ZERO IEEE_DIVIDE_BY_ZERO IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG
+ IEEE_UNDERFLOW_FLAG
+ IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DIVIDE_BY_ZERO
+
+ IEEE_DIVIDE_BY_ZERO
+ IEEE_UNDERFLOW_FLAG IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG IEEE_UNDERFLOW_FLAG
+ IEEE_UNDERFLOW_FLAG
+ IEEE_UNDERFLOW_FLAG
+ IEEE_UNDERFLOW_FLAG
+ IEEE_UNDERFLOW_FLAG
+ IEEE_UNDERFLOW_FLAG IEEE_UNDERFLOW_FLAG
+
+ IEEE_UNDERFLOW_FLAG IEEE_UNDERFLOW_FLAG
+ IEEE_UNDERFLOW_FLAG IEEE_UNDERFLOW_FLAG IEEE_UNDERFLOW_FLAG IEEE_UNDERFLOW_FLAG
+
+
+ IEEE_UNDERFLOW_FLAG IEEE_UNDERFLOW_FLAG IEEE_UNDERFLOW_FLAG IEEE_UNDERFLOW_FLAG
+
+ IEEE_UNDERFLOW_FLAG
+ IEEE_UNDERFLOW_FLAG IEEE_UNDERFLOW_FLAG
+ IEEE_UNDERFLOW_FLAG
+ IEEE_UNDERFLOW_FLAG
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+============================= PBS epilogue =============================
+
+End of Job Report
+Run at 2021-10-12 05:59:34 for job 151927.xci00
+Submitted              : 2021-10-11 18:33:26
+Queued                 : 2021-10-11 18:33:26
+Started                : 2021-10-12 05:51:58
+Completed              : 2021-10-12 05:59:34
+Queued Time            : 11:18:32 (40712 seconds)
+Elapsed Time           : 0:07:31 (451 seconds, 25% of limit)
+Walltime Limit         : 0:30:00 (1800 seconds)
+Node Time Limit        : 0:30:00 (1800 seconds)
+Node Time              : 0:07:31 (451 seconds, 25% of limit)
+Job Name               : dim_relax
+Queue                  : arm
+Owner                  : ba-tsmolders
+Group                  : -default-
+Project                : GW02
+Subproject             : 
+Funding                : 
+Trustzone              : 
+STDOUT                 : /home/ba-tsmolders/DFTB/Training_Data/dimer_relax/PSTRESS_0/2_7/03/dim_relax.o151927
+STDERR                 : /home/ba-tsmolders/DFTB/Training_Data/dimer_relax/PSTRESS_0/2_7/03/dim_relax.e151927
+Job Directory          : /home/ba-tsmolders/pbs.151927.xci00.x8z
+Job Arch               : XT
+CPU Core Type          : arm
+Total Nodes            : 1
+Total Tasks            : 64
+Parent Node            : xcimom
+Parent Node Memory     : 
+Parent Node CPU Time   : 
+Compute Nodes          : 0
+Electrical Groups      : 1
+Run Version            : 1
+
+For more information see https://gw4-isambard.github.io/docs/

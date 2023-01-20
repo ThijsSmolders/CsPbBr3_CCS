@@ -1,0 +1,12 @@
+@spinpol_energy:real:0:
+    0.000000000000000E+00
+@eigenvalues:real:1:1
+ -7.657150792388030E-02
+@occupations:real:1:1
+  1.000000000000000E+00
+@homo:integer:0:
+                     0
+@hubbardu:real:2:1,1
+  1.205553459877748E-01
+@spinw:real:2:1,1
+ -8.278346850364215E-03

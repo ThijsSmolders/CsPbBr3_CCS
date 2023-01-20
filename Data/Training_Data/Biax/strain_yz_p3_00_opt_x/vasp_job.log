@@ -1,0 +1,35 @@
+ running on   64 total cores
+ distrk:  each k-point on   64 cores,    1 groups
+ distr:  one band on    8 cores,    8 groups
+ using from now: INCAR     
+ vasp.5.4.4.18Apr17-6-g9f103f2a35 (build Jun 29 2021 11:06:51) complex           
+ POSCAR found type information on POSCAR  Cs Pb Br
+ POSCAR found :  3 types and      20 ions
+ scaLAPACK will be used
+ LDA part: xc-table for Pade appr. of Perdew
+ POSCAR found type information on POSCAR  Cs Pb Br
+ POSCAR found :  3 types and      20 ions
+ POSCAR, INCAR and KPOINTS ok, starting setup
+ FFT: planning ...
+ WAVECAR not read
+ entering main loop
+       N       E                     dE             d eps       ncg     rms          rms(c)
+DAV:   1     0.649230875309E+03    0.64923E+03   -0.55970E+04  1856   0.919E+02
+DAV:   2    -0.576822466409E+03   -0.12261E+04   -0.11749E+04  2184   0.283E+02
+DAV:   3    -0.749251347745E+03   -0.17243E+03   -0.17138E+03  2448   0.127E+02
+DAV:   4    -0.754479668899E+03   -0.52283E+01   -0.52103E+01  2152   0.289E+01
+DAV:   5    -0.754719038069E+03   -0.23937E+00   -0.23915E+00  2424   0.500E+00    0.698E+00
+DAV:   6    -0.714923818502E+03    0.39795E+02   -0.11794E+01  2360   0.283E+01    0.498E+00
+DAV:   7    -0.714680108784E+03    0.24371E+00   -0.38811E+00  2232   0.481E+00    0.259E+00
+DAV:   8    -0.714777763834E+03   -0.97655E-01   -0.18329E-01  2152   0.170E+00    0.148E+00
+DAV:   9    -0.714820190771E+03   -0.42427E-01   -0.87460E-02  1936   0.121E+00    0.324E-01
+DAV:  10    -0.714821084865E+03   -0.89409E-03   -0.50499E-03  2592   0.327E-01    0.188E-01
+DAV:  11    -0.714822716780E+03   -0.16319E-02   -0.16597E-03  1944   0.167E-01    0.663E-02
+DAV:  12    -0.714822870323E+03   -0.15354E-03   -0.45259E-04  2008   0.920E-02    0.236E-02
+DAV:  13    -0.714822882628E+03   -0.12306E-04   -0.42474E-05  2248   0.254E-02    0.752E-03
+DAV:  14    -0.714822893260E+03   -0.10632E-04   -0.38245E-06  1760   0.576E-03    0.204E-03
+DAV:  15    -0.714822897532E+03   -0.42724E-05   -0.58914E-07  1232   0.329E-03    0.700E-04
+DAV:  16    -0.714822895671E+03    0.18607E-05   -0.13798E-07  1184   0.190E-03    0.462E-04
+DAV:  17    -0.714822895405E+03    0.26640E-06   -0.30037E-08  1120   0.966E-04
+   1 F= -.71482290E+03 E0= -.71482290E+03  d E =-.516905E-42
+Application 1866234 resources: utime ~7591s, stime ~65s, Rss ~78204, inblocks ~1328, outblocks ~50744

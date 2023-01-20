@@ -1,0 +1,448 @@
+Enter nuclear charge, maximal angular momentum (s=0), max. SCF, ZORA
+Enter XC functional, 0=HF, 1=X-Alpha, 2=PW-LDA, 3=PBE
+Enter Confinement: r_0 and integer power, power=0 -> off
+l=  0
+l=  1
+l=  2
+l=  3
+Enter number of occupied shells for each angular momentum
+l=  0
+l=  1
+l=  2
+l=  3
+Enter number of exponents and polynomial coefficients for each angular momentum
+l=  0
+l=  1
+l=  2
+l=  3
+Do you want to generate the exponents ? .true./.false.
+Enter   6exponents for l=  0 one per line
+Enter   6exponents for l=  1 one per line
+Enter   6exponents for l=  2 one per line
+Enter   6exponents for l=  3 one per line
+Print Eigenvectors ? .true./.false.
+ Use Broyden mixer ? .true./.false. and mixing parameter <1
+Enter the occupation numbers for each angular momentum and shell, up and down in one row
+ 
+UP Electrons DOWN Electrons
+l=   0 and shell   1
+l=   0 and shell   2
+l=   0 and shell   3
+l=   0 and shell   4
+l=   0 and shell   5
+l=   0 and shell   6
+l=   1 and shell   1
+l=   1 and shell   2
+l=   1 and shell   3
+l=   1 and shell   4
+l=   1 and shell   5
+l=   2 and shell   1
+l=   2 and shell   2
+l=   2 and shell   3
+l=   3 and shell   1
+Quantum numbers of wavefunctions to be written:
+l= 0: from to
+l= 1: from to
+l= 2: from to
+l= 3: from to
+ 
+--------------
+INPUT SUMMARY 
+--------------
+SCALAR RELATIVISTIC ZORA CALCULATION
+ 
+Nuclear Charge:  82
+PBE
+Max. angular momentum: 3
+Number of points for numerical radial integration:  1500
+ 
+Occupied Shells for l=0:  6
+Occupied Shells for l=1:  5
+Occupied Shells for l=2:  3
+Occupied Shells for l=3:  1
+ 
+Number of Polynomial Coeff. for l=0:  3
+Number of Polynomial Coeff. for l=1:  3
+Number of Polynomial Coeff. for l=2:  3
+Number of Polynomial Coeff. for l=3:  3
+ 
+Exponents for l=0
+  0.83968000
+  2.09920000
+  5.24800000
+ 13.12000000
+ 32.80000000
+ 82.00000000
+Exponents for l=1
+  0.83968000
+  2.09920000
+  5.24800000
+ 13.12000000
+ 32.80000000
+ 82.00000000
+Exponents for l=2
+  0.83968000
+  2.09920000
+  5.24800000
+ 13.12000000
+ 32.80000000
+ 82.00000000
+Exponents for l=3
+  0.83968000
+  2.09920000
+  5.24800000
+ 13.12000000
+ 32.80000000
+ 82.00000000
+ 
+Occupation Numbers UP/DWN
+Angular Momentum 0 Shell  1:   1.00000000  1.00000000
+Angular Momentum 0 Shell  2:   1.00000000  1.00000000
+Angular Momentum 0 Shell  3:   1.00000000  1.00000000
+Angular Momentum 0 Shell  4:   1.00000000  1.00000000
+Angular Momentum 0 Shell  5:   1.00000000  1.00000000
+Angular Momentum 0 Shell  6:   0.99950000  0.99950000
+Angular Momentum 1 Shell  1:   3.00000000  3.00000000
+Angular Momentum 1 Shell  2:   3.00000000  3.00000000
+Angular Momentum 1 Shell  3:   3.00000000  3.00000000
+Angular Momentum 1 Shell  4:   3.00000000  3.00000000
+Angular Momentum 1 Shell  5:   1.00000000  1.00000000
+Angular Momentum 2 Shell  1:   5.00000000  5.00000000
+Angular Momentum 2 Shell  2:   5.00000000  5.00000000
+Angular Momentum 2 Shell  3:   5.00000000  5.00000000
+Angular Momentum 3 Shell  1:   7.00000000  7.00000000
+ 
+l=   0 no confinement 
+l=   1 no confinement 
+l=   2 no confinement 
+l=   3 no confinement 
+ 
+There are at maximum  6 occ. shells for one l
+There are at maximum  3 coefficients for one exponent
+There are at maximum  6 exponents
+ 
+------------------
+END INPUT SUMMARY 
+------------------
+ 
+Size of one Supervectors is         1296 double precision elements
+Size of one Supermatrix is      1679616 double precision elements
+MAXIMUM SIZE OF EIGENPROBLEM IS  18
+ 
+LDA/PBE ROUTINES: LIBXC IMPLEMENTATION
+
+Startup: Building Supervectors
+Smallest eigenvalue of overlap for l=   0 :    0.1859347159782558E-07
+Smallest eigenvalue of overlap for l=   1 :    0.1545737463664112E-06
+Smallest eigenvalue of overlap for l=   2 :    0.6233039470590453E-06
+Smallest eigenvalue of overlap for l=   3 :    0.1758714613002296E-05
+  
+Startup: Building Supermatrices
+Startup: Building Initial Fock Matrix
+ 
+Iteration :    1
+CHANGE in potential matrix  0.631030049629E+03
+  
+Iteration :    2
+CHANGE in potential matrix  0.443015100252E+04
+  
+Iteration :    3
+CHANGE in potential matrix  0.167841990832E+03
+  
+Iteration :    4
+CHANGE in potential matrix  0.627319150249E+03
+  
+Iteration :    5
+CHANGE in potential matrix  0.332138400521E+01
+  
+Iteration :    6
+CHANGE in potential matrix  0.196718940955E+02
+  
+Iteration :    7
+CHANGE in potential matrix  0.199448359730E+01
+  
+Iteration :    8
+CHANGE in potential matrix  0.977382062841E+01
+  
+Iteration :    9
+CHANGE in potential matrix  0.148267424082E+02
+  
+Iteration :   10
+CHANGE in potential matrix  0.779072684147E+01
+  
+Iteration :   11
+CHANGE in potential matrix  0.310068403147E+01
+  
+Iteration :   12
+CHANGE in potential matrix  0.459644426382E+01
+  
+Iteration :   13
+CHANGE in potential matrix  0.931799848361E+00
+  
+Iteration :   14
+CHANGE in potential matrix  0.839367919408E-01
+  
+Iteration :   15
+CHANGE in potential matrix  0.308016596166E+01
+  
+Iteration :   16
+CHANGE in potential matrix  0.576499088258E+00
+  
+Iteration :   17
+CHANGE in potential matrix  0.371853713987E-01
+  
+Iteration :   18
+CHANGE in potential matrix  0.390052263269E+00
+  
+Iteration :   19
+CHANGE in potential matrix  0.436383866073E-01
+  
+Iteration :   20
+CHANGE in potential matrix  0.231879059356E-01
+  
+Iteration :   21
+CHANGE in potential matrix  0.631361914348E-01
+  
+Iteration :   22
+CHANGE in potential matrix  0.598117764275E-02
+  
+Iteration :   23
+CHANGE in potential matrix  0.208191447473E-02
+  
+Iteration :   24
+CHANGE in potential matrix  0.431048962916E-03
+  
+Iteration :   25
+CHANGE in potential matrix  0.102993462724E-02
+  
+Iteration :   26
+CHANGE in potential matrix  0.216187860858E-04
+  
+Iteration :   27
+CHANGE in potential matrix  0.644211349936E-04
+  
+Iteration :   28
+CHANGE in potential matrix  0.385572338928E-04
+  
+Iteration :   29
+CHANGE in potential matrix  0.176879029823E-04
+  
+Iteration :   30
+CHANGE in potential matrix  0.294903657050E-06
+  
+Iteration :   31
+CHANGE in potential matrix  0.100352644949E-05
+  
+Iteration :   32
+CHANGE in potential matrix  0.246800937020E-06
+  
+Iteration :   33
+CHANGE in potential matrix  0.469388851343E-06
+  
+Iteration :   34
+CHANGE in potential matrix  0.790669218986E-07
+  
+Iteration :   35
+CHANGE in potential matrix  0.114213889901E-06
+  
+Iteration :   36
+CHANGE in potential matrix  0.339377947967E-07
+  
+Iteration :   37
+CHANGE in potential matrix  0.128875399241E-08
+ 
+EIGENVALUES UP/ Hartree
+l=  0
+   -3526.099855    -585.249061    -138.540535     -31.188729      -5.228465
+ 
+      -0.435641      -0.014626       0.143604       0.587441       1.759855
+ 
+       4.896026      13.122219      37.049046     104.004006     318.827355
+ 
+     934.503341    3299.311688   12619.892221
+ 
+l=  1
+    -506.070077    -115.984621     -23.754465      -3.155558      -0.129534
+ 
+       0.025769       0.182440       0.583699       1.576272       4.015679
+ 
+      10.132407      25.934349      68.408266     182.241757     493.372393
+ 
+    1316.937121    3776.622243   12253.145544
+ 
+l=  2
+     -91.791969     -14.799294      -0.782788       0.029466       0.110551
+ 
+       0.298310       0.731954       1.697343       3.875175       8.812983
+ 
+      20.368613      47.904157     113.707182     270.240897     638.895338
+ 
+    1530.866765    3853.114781   11275.918960
+ 
+l=  3
+      -4.906906       0.065451       0.165616       0.351385       0.669061
+ 
+       1.212170       2.240605       4.336618       8.613216      17.379253
+ 
+      35.867530      74.573247     157.715688     337.261770     728.341724
+ 
+    1624.285836    3786.021616   10142.127997
+ 
+ 
+EIGENVALUES DWN/ Hartree
+l=  0
+   -3526.099855    -585.249061    -138.540535     -31.188729      -5.228465
+ 
+      -0.435641      -0.014626       0.143604       0.587441       1.759855
+ 
+       4.896026      13.122219      37.049046     104.004006     318.827355
+ 
+     934.503341    3299.311688   12619.892221
+ 
+ 
+l=  1
+    -506.070077    -115.984621     -23.754465      -3.155558      -0.129534
+ 
+       0.025769       0.182440       0.583699       1.576272       4.015679
+ 
+      10.132407      25.934349      68.408266     182.241757     493.372393
+ 
+    1316.937121    3776.622243   12253.145544
+ 
+ 
+l=  2
+     -91.791969     -14.799294      -0.782788       0.029466       0.110551
+ 
+       0.298310       0.731954       1.697343       3.875175       8.812983
+ 
+      20.368613      47.904157     113.707182     270.240897     638.895338
+ 
+    1530.866765    3853.114781   11275.918960
+ 
+ 
+l=  3
+      -4.906906       0.065451       0.165616       0.351385       0.669061
+ 
+       1.212170       2.240605       4.336618       8.613216      17.379253
+ 
+      35.867530      74.573247     157.715688     337.261770     728.341724
+ 
+    1624.285836    3786.021616   10142.127997
+ 
+ 
+ 
+FINAL ENERGIES :                   
+-----------------------------------
+ 
+KINETIC ENERGY               26915.976691 Hartree
+NUC. ATTR. ENERGY           -53127.018762 Hartree
+COULOMB ENERGY                8064.471966 Hartree
+XC ENERGY                     -391.371573 Hartree
+CONFINEMENT ENERGY               0.000000 Hartree
+  
+TOTAL ENERGY                -18537.941677 Hartree
+Remark: For HF use 0.5*XC Energy
+ 
+DFT VIRIAL              -1.688734
+ 
+Scaled Scalar-Relativistic ZORA EIGENVALUES and ENERGY
+------------------------------------------------------
+ 
+EIGENVALUES UP/ Hartree
+l=  0
+   -3191.120926    -572.224270    -137.499026     -31.107944      -5.224833
+ 
+      -0.435599      -0.014626       0.143601       0.587397       1.759517
+ 
+       4.893638      13.105993      36.928138     103.134947     311.788568
+ 
+     884.032578    2830.489841    8333.438329
+ 
+l=  1
+    -495.593544    -115.176162     -23.699878      -3.153841      -0.129529
+ 
+       0.025769       0.182435       0.583659       1.576015       4.014125
+ 
+      10.123030      25.876418      68.039684     179.938812     479.296183
+ 
+    1235.734679    3268.114050    8681.021638
+ 
+l=  2
+     -91.193145     -14.770168      -0.782543       0.029466       0.110550
+ 
+       0.298301       0.731900       1.697066       3.873810       8.806332
+ 
+      20.335072      47.735009     112.863103     266.165296     619.687825
+ 
+    1438.538067    3376.594517    8311.964419
+ 
+l=  3
+      -4.899264       0.065451       0.165615       0.351379       0.669032
+ 
+       1.212048       2.240174       4.335067       8.607519      17.357685
+ 
+      35.784362      74.251693     156.433736     332.076293     706.912634
+ 
+    1530.818898    3352.495495    7728.906114
+ 
+ 
+EIGENVALUES DWN/ Hartree
+l=  0
+   -3191.120926    -572.224270    -137.499026     -31.107944      -5.224833
+ 
+      -0.435599      -0.014626       0.143601       0.587397       1.759517
+ 
+       4.893638      13.105993      36.928138     103.134947     311.788568
+ 
+     884.032578    2830.489841    8333.438329
+ 
+ 
+l=  1
+    -495.593544    -115.176162     -23.699878      -3.153841      -0.129529
+ 
+       0.025769       0.182435       0.583659       1.576015       4.014125
+ 
+      10.123030      25.876418      68.039684     179.938812     479.296183
+ 
+    1235.734679    3268.114050    8681.021638
+ 
+ 
+l=  2
+     -91.193145     -14.770168      -0.782543       0.029466       0.110550
+ 
+       0.298301       0.731900       1.697066       3.873810       8.806332
+ 
+      20.335072      47.735009     112.863103     266.165296     619.687825
+ 
+    1438.538067    3376.594517    8311.964419
+ 
+ 
+l=  3
+      -4.899264       0.065451       0.165615       0.351379       0.669032
+ 
+       1.212048       2.240174       4.335067       8.607519      17.357685
+ 
+      35.784362      74.251693     156.433736     332.076293     706.912634
+ 
+    1530.818898    3352.495495    7728.906114
+ 
+ 
+ 
+FINAL ENERGIES :                   
+-----------------------------------
+ 
+KINETIC ENERGY               24672.961580 Hartree
+NUC. ATTR. ENERGY           -53127.018762 Hartree
+COULOMB ENERGY                8064.471966 Hartree
+XC ENERGY                     -391.371573 Hartree
+CONFINEMENT ENERGY               0.000000 Hartree
+  
+TOTAL ENERGY                -20780.956789 Hartree
+ 
+Potential Matrix Elements converged to   0.128875399241E-08
+ 
+Nuc. attr. energy from potential in pot.dat:      -53127.018784
+Coulomb    energy from potential in pot.dat:        8064.471969
+V_xc integrals from pot.dat, Up/Dwn:        -256.079689       -256.079689
+Total number of electrons from dens.dat :          81.999000
+Changing wavefunction sign: n =  6, l =  1

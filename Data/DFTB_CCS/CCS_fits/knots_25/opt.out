@@ -1,0 +1,84 @@
+|===============================================================================
+|
+|  DFTB+ release 21.1
+|
+|  Copyright (C) 2006 - 2021  DFTB+ developers group
+|
+|===============================================================================
+|
+|  When publishing results obtained with DFTB+, please cite the following
+|  reference:
+|
+|  * DFTB+, a software package for efficient approximate density functional
+|    theory based atomistic simulations, J. Chem. Phys. 152, 124101 (2020).
+|    [doi: 10.1063/1.5143190]
+|
+|  You should also cite additional publications crediting the parametrization
+|  data you use. Please consult the documentation of the SK-files for the
+|  references.
+|
+|===============================================================================
+
+Reading input file 'dftb_in.hsd'
+Parser version: 9
+
+--------------------------------------------------------------------------------
+Reading SK-files:
+Done.
+
+
+Processed input in HSD format written to 'dftb_pin.hsd'
+
+Starting initialization...
+--------------------------------------------------------------------------------
+OpenMP threads:              8
+Chosen random seed:          1631575416
+Mode:                        Static calculation
+Self consistent charges:     Yes
+SCC-tolerance:                 0.100000E-05
+Max. scc iterations:                   1500
+Shell resolved Hubbard:      Yes
+Spin polarisation:           No
+Nr. of up electrons:           103.500000
+Nr. of down electrons:         103.500000
+Periodic boundaries:         Yes
+Electronic solver:           Relatively robust
+Mixer:                       Broyden mixer
+Mixing parameter:                  0.200000
+Maximal SCC-cycles:                    1500
+Nr. of chrg. vec. in memory:              0
+Electronic temperature:        0.633363E-04 H      0.172347E-02 eV
+Initial charges:             Set automatically (system chrg:   0.000E+00)
+Included shells:            Cs:  s
+                            Pb:  s, p
+                            Br:  s, p
+K-points and weights:           1:  0.000000  0.000000  0.000000     0.125000
+                                2:  0.000000  0.000000  0.500000     0.125000
+                                3:  0.000000  0.500000  0.000000     0.125000
+                                4:  0.000000  0.500000  0.500000     0.125000
+                                5:  0.500000  0.000000  0.000000     0.125000
+                                6:  0.500000  0.000000  0.500000     0.125000
+                                7:  0.500000  0.500000  0.000000     0.125000
+                                8:  0.500000  0.500000  0.500000     0.125000
+
+K-points in absolute space:     1:  0.000000  0.000000  0.000000
+                                2: -0.015535  0.000000  0.018142
+                                3:  0.000000  0.022791  0.000000
+                                4: -0.015535  0.022791  0.018142
+                                5:  0.015535  0.000000  0.018142
+                                6:  0.000000  0.000000  0.036284
+                                7:  0.015535  0.022791  0.018142
+                                8:  0.000000  0.022791  0.036284
+
+Extra options:
+                             Mulliken analysis
+                             Force calculation
+Force type                   original
+
+--------------------------------------------------------------------------------
+
+***  Geometry step: 0
+
+ iSCC Total electronic   Diff electronic      SCC error    
+ERROR!
+-> Failure in diagonalisation routine ZHEEVR, unable to complete Cholesky factorization of B    218

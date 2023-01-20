@@ -1,0 +1,13 @@
+hetero density_pbe
+0.400000 0.020000 5.000000e-05 40.000000
+300 100
+2
+'../../Br/wavecomp/wave_04s.dat' 0
+'../../Br/wavecomp/wave_04p.dat' 1
+'../../Br/potcomp/pot.dat'
+'../../Br/potcomp/dens.dat'
+2
+'../../Pb/wavecomp/wave_06s.dat' 0
+'../../Pb/wavecomp/wave_06p.dat' 1
+'../../Pb/potcomp/pot.dat'
+'../../Pb/potcomp/dens.dat'
