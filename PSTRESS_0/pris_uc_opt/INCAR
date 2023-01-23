@@ -1,0 +1,30 @@
+SYSTEM   = CsPbBr3 cubic bulk
+
+NSW      = 100
+ENCUT    = 500
+PREC     = Accurate
+ISIF     = 3
+ISYM     = 2
+EDIFF    = 1E-8     ! Convergence criterion for electrons
+EDIFFG   = -0.01    ! Convergence criterion for forces
+ALGO     = Normal   ! Electronic minimisation algorithm
+NELM     = 200
+IBRION   = 2        ! Quasi-Newton algorithm for ionic relaxation
+NPAR     = 8       ! Number of bands treated in parallel, equal to SQRT(NUM_CORES). NCORE should never be set to the number of cores, very slow
+METAGGA  = SCAN       ! PBE exchange-correlation
+ISMEAR   = 0        ! Gaussian smearing, for a small system with a dense k-mesh, this could be set to -5
+SIGMA    = 0.01     ! Effectively 0
+POTIM    = 0.5
+PSTRESS  = 0
+
+LREAL    = AUTO
+ADDGRID  = .TRUE.
+LASPH    = .TRUE.
+
+! Analysis
+
+#ICORELEVEL = 1     ! To calculate the energies of the core electrons explicitly
+LORBIT   = 10       ! Print l-projected occupancies
+LVHAR    = .TRUE.   ! Prints only Hartree (electrostatic) potential in LOCPOT file
+LCHARG   = .FALSE.
+LWAVE    = .FALSE.

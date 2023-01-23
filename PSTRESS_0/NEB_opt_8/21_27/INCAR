@@ -1,0 +1,47 @@
+SYSTEM   = CsPbBr3 cubic bulk
+
+NSW      = 15 
+ENCUT    = 300 
+PREC     = ACCURATE 
+ISIF     = 2 
+ISYM     = 0
+EDIFF    = 1E-6     ! Convergence criterion for electrons
+EDIFFG   = -0.05    ! Convergence criterion for forces
+ALGO     = NORMAL   ! Electronic minimisation algorithm
+NELM     = 200 
+NPAR     = 8
+METAGGA  = SCAN     ! PBE exchange-correlation
+ISMEAR   = 0        ! Gaussian smearing, for a small system with a dense k-mesh, this could be set to -5
+SIGMA    = 0.01     ! Effectively 0
+
+NELECT   = 2808
+ISPIN    = 1
+NUPDOWN  = 0
+
+LREAL    = AUTO
+ADDGRID  = .TRUE.
+LASPH    = .TRUE.
+
+! Analysis
+
+#ICORELEVEL = 1     ! To calculate the energies of the core electrons explicitly
+LORBIT   = 10       ! Print l-projected occupancies
+LVHAR    = .TRUE.   ! Prints only Hartree (electrostatic) potential in LOCPOT file
+LCHARG   = .FALSE.
+LWAVE    = .FALSE.
+
+! NEB
+IMAGES = 8 # Number of NEB images between the fixed endpoints
+SPRING = -5.0 # The spring constant, in eV/Ang^2 between the images; negative value turns on nudging
+ICHAIN = 0 # Indicates which method to run. NEB (ICHAIN=0) is the default
+LCLIMB = .TRUE. # Flag to turn on the climbing image algorithm
+# LNEBCELL = .TRUE. # Flag to turn on SS-NEB. Used with ISIF=3 and IOPT=3
+# Must set IOPT = 3 or 7 when using LNEBCELL=.TRUE.
+IOPT = 2 # QM (Quick-Min) force based optimizers is used and good for high force far from minmum
+# O(default vasp),1(LBFGS),2(CG),4(SD),7(FIRE)
+IBRION = 3 # Disbale VASP default optimizers which are basesd on Energy
+POTIM = 0 # Disbale VASP default optimizers which are basesd on Energy
+# MAXMOVE = 0.2 # Maximum allowed step size for translation(Default comes with IOPT=3)
+# TIMESTEP = 0.1 # Dynamical time step (Default comes with IOPT=3)
+# LSCALAPACK = .FALSE.
+# NPAR = 4
