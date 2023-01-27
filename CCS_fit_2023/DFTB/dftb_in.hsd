@@ -1,0 +1,32 @@
+Geometry = GenFormat { 
+    <<< "geo_end.gen" 
+} 
+ 
+Driver = ConjugateGradient{ 
+   MaxForceComponent = 1.00E-008 
+   MaxSteps = 1000 
+   } 
+Hamiltonian = DFTB{ 
+   KPointsAndWeights = SupercellFolding { 2 0 0 0 2 0 0 0 2     0.0 0.0 0.0} 
+   MaxAngularMomentum = { 
+      Br = "p" 
+      Cs = "s" 
+      Pb = "p" 
+   } 
+   SCC = Yes 
+   SCCTolerance = 1.00E-010 
+   SlaterKosterFiles = Type2FileNames{ 
+      Prefix = /home/thism292/Documents/repos/CsPbBr3_CCS/Data/DFTB_CCS/DFTB_PARAMS/Cs_w3_00_c9_00_Pb_w3_00_c9_00_Br_w3_00_c9_00/ 
+      Separator = "-" 
+      Suffix = ".skf" 
+      } 
+   } 
+Options { 
+   WriteResultsTag = Yes 
+} 
+ParserOptions { 
+   IgnoreUnprocessedNodes = Yes  
+} 
+Analysis { 
+   CalculateForces = Yes  
+} 

@@ -1,0 +1,104 @@
+Geometry = GenFormat {
+10  S
+Cs   Pb   Br
+1      1      8.808190000000000      8.808190000000000     -9.089670000000000
+2      1      2.936060000000000      2.936060000000000     -3.029890000000000
+3      2      0.000000000000000      0.000000000000000     -0.000000000000000
+4      2      5.872130000000000      5.872130000000000     -6.059780000000000
+5      3      5.543980000000000      2.936060000000000     -5.637810000000000
+6      3      6.200280000000000      8.808190000000000     -6.481760000000000
+7      3      6.294100000000000      5.543980000000000     -8.995850000000001
+8      3      5.450160000000000      6.200280000000000     -3.123720000000000
+9      3      2.936060000000000      6.294100000000000     -6.387930000000000
+10     3      8.808190000000000      5.450160000000000     -5.731630000000000
+0.000000000000000      0.000000000000000      0.000000000000000
+5.778303533000000      5.778303533000000     -0.187652428000000
+5.965955960000000      0.000000000000000     -5.965955960000000
+-0.000000000000000      5.965955960000000     -5.965955960000000
+}
+Hamiltonian = DFTB {
+  KPointsAndWeights = SupercellFolding {
+3 0 0 0 3 0 0 0 3     0.0 0.0 0.0
+  }
+  MaxAngularMomentum = {
+    Br = "p"
+    Cs = "s"
+    Pb = "p"
+  }
+  MaxSCCIterations = 1500
+  ReadInitialCharges = No
+  SCC = Yes
+  SCCTolerance = 1.0E-006
+  ShellResolvedSCC = Yes
+  SlaterKosterFiles = Type2FileNames {
+    Prefix = /Users/tjams20/Documents/UBath/DFTB/rhea_rsync/python_workflow/SKF/Cs_w3_00_c9_00_Pb_w3_00_c9_00_Br_w3_00_c9_00/
+    Separator = "-"
+    Suffix = ".skf"
+    LowerCaseTypeName = No
+  }
+  PolynomialRepulsive = {}
+  OldSKInterpolation = No
+  RangeSeparated = None {}
+  InitialCharges = {}
+  EwaldParameter = 0.0000000000000000
+  EwaldTolerance = 1.0000000000000001E-009
+  HCorrection = None {}
+  SpinPolarisation = {}
+  ElectricField = {}
+  Solver = RelativelyRobust {}
+  Charge = 0.0000000000000000
+  OnSiteCorrection = {}
+  Dispersion = {}
+  Solvation = {}
+  Electrostatics = GammaFunctional {}
+  ThirdOrder = No
+  ThirdOrderFull = No
+  Differentiation = FiniteDiff {
+    Delta = 1.2207031250000000E-004
+  }
+  ForceEvaluation = "Traditional"
+  Mixer = Broyden {
+    MixingParameter = 0.20000000000000001
+    InverseJacobiWeight = 1.0000000000000000E-002
+    MinimalWeight = 1.0000000000000000
+    MaximalWeight = 100000.00000000000
+    WeightFactor = 1.0000000000000000E-002
+  }
+  Filling = Fermi {
+    Temperature = 0.0000000000000000
+    IndependentKFilling = No
+  }
+}
+Options = {
+  WriteResultsTag = Yes
+  WriteDetailedOut = Yes
+  WriteAutotestTag = No
+  WriteDetailedXML = No
+  RestartFrequency = 20
+  RandomSeed = 0
+  WriteHS = No
+  WriteRealHS = No
+  MinimiseMemoryUsage = No
+  ShowFoldedCoords = No
+  TimingVerbosity = 1
+  WriteChargesAsText = No
+}
+ParserOptions = {
+  IgnoreUnprocessedNodes = Yes
+  ParserVersion = 9
+  WriteHSDInput = Yes
+  StopAfterParsing = No
+}
+Reks = None {}
+Driver = {}
+Analysis = {
+  ProjectStates = {}
+  WriteEigenvectors = No
+  WriteBandOut = Yes
+  MullikenAnalysis = Yes
+  WriteNetCharges = No
+  AtomResolvedEnergies = No
+  CalculateForces = No
+  EigenvectorsAsText = No
+}
+ExcitedState = {}

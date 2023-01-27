@@ -1,0 +1,143 @@
+Geometry = GenFormat {
+40  S
+Cs   Pb   Br
+1      1                    nan                    nan                    nan
+2      1                    nan                    nan                    nan
+3      1                    nan                    nan                    nan
+4      1                    nan                    nan                    nan
+5      1                    nan                    nan                    nan
+6      1                    nan                    nan                    nan
+7      1                    nan                    nan                    nan
+8      1                    nan                    nan                    nan
+9      2                    nan                    nan                    nan
+10     2                    nan                    nan                    nan
+11     2                    nan                    nan                    nan
+12     2                    nan                    nan                    nan
+13     2                    nan                    nan                    nan
+14     2                    nan                    nan                    nan
+15     2                    nan                    nan                    nan
+16     2                    nan                    nan                    nan
+17     3                    nan                    nan                    nan
+18     3                    nan                    nan                    nan
+19     3                    nan                    nan                    nan
+20     3                    nan                    nan                    nan
+21     3                    nan                    nan                    nan
+22     3                    nan                    nan                    nan
+23     3                    nan                    nan                    nan
+24     3                    nan                    nan                    nan
+25     3                    nan                    nan                    nan
+26     3                    nan                    nan                    nan
+27     3                    nan                    nan                    nan
+28     3                    nan                    nan                    nan
+29     3                    nan                    nan                    nan
+30     3                    nan                    nan                    nan
+31     3                    nan                    nan                    nan
+32     3                    nan                    nan                    nan
+33     3                    nan                    nan                    nan
+34     3                    nan                    nan                    nan
+35     3                    nan                    nan                    nan
+36     3                    nan                    nan                    nan
+37     3                    nan                    nan                    nan
+38     3                    nan                    nan                    nan
+39     3                    nan                    nan                    nan
+40     3                    nan                    nan                    nan
+0.000000000000000      0.000000000000000      0.000000000000000
+11.735352000000001      0.000000000000000      0.000000000000000
+0.000000000000000     11.735352000000001      0.000000000000000
+0.000000000000000      0.000000000000000     11.735352000000001
+}
+Driver = ConjugateGradient {
+  MaxForceComponent = 1.00E-007
+  MaxSteps = 1000
+  LatticeOpt = No
+  MovedAtoms = "1:-1"
+  MaxAtomStep = 0.20000000000000001
+  StepSize = 100.00000000000000
+  OutputPrefix = "geo_end"
+  AppendGeometries = No
+  Constraints = {}
+}
+Hamiltonian = DFTB {
+  KPointsAndWeights = SupercellFolding {
+2 0 0 0 2 0 0 0 2     0.0 0.0 0.0
+  }
+  MaxAngularMomentum = {
+    Br = "p"
+    Cs = "s"
+    Pb = "p"
+  }
+  SCC = Yes
+  SCCTolerance = 1.00E-010
+  SlaterKosterFiles = Type2FileNames {
+    Prefix = /home/thism292/Documents/repos/CsPbBr3_CCS/Data/DFTB_CCS/DFTB_PARAMS/Cs_w3_00_c9_00_Pb_w3_00_c9_00_Br_w3_00_c9_00/
+    Separator = "-"
+    Suffix = ".skf"
+    LowerCaseTypeName = No
+  }
+  PolynomialRepulsive = {}
+  ShellResolvedSCC = No
+  OldSKInterpolation = No
+  RangeSeparated = None {}
+  ReadInitialCharges = No
+  InitialCharges = {}
+  EwaldParameter = 0.0000000000000000
+  EwaldTolerance = 1.0000000000000001E-009
+  ConvergentSCCOnly = Yes
+  HCorrection = None {}
+  SpinPolarisation = {}
+  ElectricField = {}
+  Solver = RelativelyRobust {}
+  Charge = 0.0000000000000000
+  MaxSCCIterations = 100
+  OnSiteCorrection = {}
+  Dispersion = {}
+  Solvation = {}
+  Electrostatics = GammaFunctional {}
+  ThirdOrder = No
+  ThirdOrderFull = No
+  Differentiation = FiniteDiff {
+    Delta = 1.2207031250000000E-004
+  }
+  ForceEvaluation = "Traditional"
+  Mixer = Broyden {
+    MixingParameter = 0.20000000000000001
+    InverseJacobiWeight = 1.0000000000000000E-002
+    MinimalWeight = 1.0000000000000000
+    MaximalWeight = 100000.00000000000
+    WeightFactor = 1.0000000000000000E-002
+  }
+  Filling = Fermi {
+    Temperature = 0.0000000000000000
+    IndependentKFilling = No
+  }
+}
+Options = {
+  WriteResultsTag = Yes
+  WriteDetailedOut = Yes
+  WriteAutotestTag = No
+  WriteDetailedXML = No
+  RandomSeed = 0
+  WriteHS = No
+  WriteRealHS = No
+  MinimiseMemoryUsage = No
+  ShowFoldedCoords = No
+  TimingVerbosity = 1
+  WriteChargesAsText = No
+}
+ParserOptions = {
+  IgnoreUnprocessedNodes = Yes
+  ParserVersion = 12
+  WriteHSDInput = Yes
+  StopAfterParsing = No
+}
+Analysis = {
+  CalculateForces = Yes
+  ProjectStates = {}
+  WriteEigenvectors = No
+  WriteBandOut = Yes
+  MullikenAnalysis = Yes
+  WriteNetCharges = No
+  AtomResolvedEnergies = No
+}
+Reks = None {}
+ExcitedState = {}

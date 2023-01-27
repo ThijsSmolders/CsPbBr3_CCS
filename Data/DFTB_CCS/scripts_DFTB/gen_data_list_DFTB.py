@@ -1,5 +1,3 @@
-#!/Users/tjams20/opt/anaconda3/bin/python
-
 import numpy as np
 import os
 import ase.db as db
@@ -10,7 +8,7 @@ from pymatgen.io.vasp.outputs import Vasprun
 Hydro = True
 Biax = True
 UniAx = True
-Phase_Diag = False
+Phase_Diag = True
 Tilts = True
 MD = False
 Mode_Following = True
@@ -46,7 +44,7 @@ def write_to_DB(master_DB, DFT_DB, structures_DFT, data):
 
 f = open("data.list", "w")
 
-Training_Data_folder = "/Users/tjams20/Documents/UBath/DFTB/Training_Data/"
+Training_Data_folder = "/home/thism292/Documents/repos/CsPbBr3_CCS/Data/Training_Data/"
 
 ### Hydrostatic pressure optimised unit cells
 
@@ -174,14 +172,14 @@ if Mode_Following:
 
 ### Structures from 40-atom study
 pressures = np.linspace(0,20,6)
-vacs_Br = [17, 21, 25, 26, 33, 36, 37, 38]
+vacs_Br = [21, 25, 26, 36, 37, 38] #17, 33
 vacs_Cs = [2, 5, 6, 7]
 
 NEB_paths_Br = ["21_25","21_26","21_37","21_38","25_26","25_36","25_38","21_17","21_27","25_33"]
 NEB_paths_Cs = ["2_5","2_6","2_7"]
 
 Hydro_strain_40_folder = "/Users/tjams20/Documents/UBath/isambard_rsync/CsPbBr3_strain/strain_study_SCAN/"
-Hydro_strain_320_folder = "/Users/tjams20/Documents/UBath/isambard_rsync/CsPbBr3_strain/strain_study_SCAN_320/pris_run_v2/"
+Hydro_strain_320_folder = "/home/thism292/Documents/repos/CsPbBr3_CCS/Data/Training_Data/pris_run_v2/"
 
 if NEB_40 == True:
     for press in pressures:
@@ -207,8 +205,8 @@ if NEB_40 == True:
                 write_to_DB(master_DB, DFT_DB, structures_DFT, data)
 
 if NEB_320 == True:
-    for press in pressures:
-        press_folder = Hydro_strain_320_folder = "/Users/tjams20/Documents/UBath/isambard_rsync/CsPbBr3_strain/strain_study_SCAN_320/pris_run_v2/PSTRESS_" + str(int(press)) + "/"
+    for press in [pressures[0]]:
+        press_folder = Hydro_strain_320_folder = "/home/thism292/Documents/repos/CsPbBr3_CCS/Data/Training_Data/PSTRESS_" + str(int(press)) + "/"
 #         for vac in vacs_Cs:
 #             vac_folder = press_folder + "vac_opt_Cs_large/vac_" + str(vac)
 #             f.write(vac_folder + "\n")
@@ -263,33 +261,38 @@ if NEB_320 == True:
 f.close()
 
 ### Build DFTB_db
-DFT_DB = db.connect("DFT.db")
-DFTB_DB = db.connect("DFTB.db")
-
-os.environ["DFTB_PREFIX"] = "/Users/tjams20/Documents/UBath/DFTB/rhea_rsync/python_workflow/SKF/Cs_w3_00_c9_00_Pb_w3_00_c9_00_Br_w3_00_c9_00/"
-
-for row in DFT_DB.select():
-    key_int=int(row.key)
-    # path_key=str(row.Path)
-    # spec_key=str(row.Spec)
-    # strain_key=str(row.Strain)
-    # print(key_int, path_key, spec_key, strain_key)
-    kpts = row.data.kpts
-
-    print(key_int)
-    DFTB_calc = Dftb(label='opt',
-                         Hamiltonian_SCC='Yes',
-                         Hamiltonian_ShellResolvedSCC = 'Yes',
-                         Hamiltonian_SCCTolerance = "1.0E-006",
-                         Hamiltonian_ReadInitialCharges = 'No',
-                         Hamiltonian_MaxSCCIterations = "1500",
-                         Hamiltonian_MaxAngularMomentum_='',
-                         Hamiltonian_MaxAngularMomentum_Cs='"s"',
-                         Hamiltonian_MaxAngularMomentum_Pb='"p"',
-                         Hamiltonian_MaxAngularMomentum_Br='"p"',
-                         Hamiltonian_KPointsAndWeights = 'SupercellFolding {{ {} 0 0 0 {} 0 0 0 {}     0.0 0.0 0.0}}'.format(kpts[0], kpts[1], kpts[2]))
-    
-    struct = row.toatoms()
-    struct.calc = DFTB_calc
-    DFTB_nrg = struct.get_potential_energy()
-    DFTB_DB.write(struct, key=key_int)  #, Spec=spec_key, Path=path_key, key=key_int)
+# DFT_DB = db.connect("DFT.db")
+# DFTB_DB = db.connect("DFTB.db")
+# 
+# os.environ["DFTB_PREFIX"] = "/home/thism292/Documents/repos/CsPbBr3_CCS/Data/DFTB_CCS/DFTB_PARAMS/Cs_w3_00_c9_00_Pb_w3_00_c9_00_Br_w3_00_c9_00/"
+# 
+# for row in DFT_DB.select():
+#     key_int=int(row.key)
+#     # path_key=str(row.Path)
+#     # spec_key=str(row.Spec)
+#     # strain_key=str(row.Strain)
+#     # print(key_int, path_key, spec_key, strain_key)
+#     kpts = row.data.kpts
+# 
+#     print(key_int)
+#     DFTB_calc = Dftb(label='opt',
+#                          Hamiltonian_SCC='Yes',
+#                          Hamiltonian_ShellResolvedSCC = 'Yes',
+#                          Hamiltonian_SCCTolerance = "1.0E-006",
+#                          Hamiltonian_ReadInitialCharges = 'No',
+#                          Hamiltonian_MaxSCCIterations = "1500",
+#                          Hamiltonian_MaxAngularMomentum_='',
+#                          Hamiltonian_MaxAngularMomentum_Cs='"s"',
+#                          Hamiltonian_MaxAngularMomentum_Pb='"p"',
+#                          Hamiltonian_MaxAngularMomentum_Br='"p"',
+#                          Hamiltonian_KPointsAndWeights = 'SupercellFolding {{ {} 0 0 0 {} 0 0 0 {}     0.0 0.0 0.0}}'.format(kpts[0], kpts[1], kpts[2]),
+#                          do_forces=True
+#                          )
+#     
+#     struct = row.toatoms()
+#     struct.calc = DFTB_calc
+#     DFTB_nrg = struct.get_potential_energy()
+#     DFTB_frc = struct.get_forces()
+#     struct.forces = DFTB_frc
+#     DFTB_DB.write(struct, key=key_int)  #, Spec=spec_key, Path=path_key, key=key_int)
+# 

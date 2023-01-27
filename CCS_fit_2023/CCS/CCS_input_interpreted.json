@@ -1,0 +1,58 @@
+{
+        "General": {
+                "interface": "CCS",
+                "ewald_scaling": 1.0,
+                "merging": "True"
+        },
+        "Train-set": "structures.json",
+        "Test-set": "structures.json",
+        "Twobody": {
+                "Br-Br": {
+                        "Rcut": 5.999751162924646,
+                        "Resolution": 0.05,
+                        "Swtype": "sw",
+                        "const_type": "Mono",
+                        "Rmin": 3.4956
+                },
+                "Pb-Br": {
+                        "Rcut": 5.983760319325466,
+                        "Resolution": 0.05,
+                        "Swtype": "sw",
+                        "const_type": "Mono",
+                        "Rmin": 2.8781283323683775
+                },
+                "Br-Cs": {
+                        "Rcut": 5.8087082591836205,
+                        "Resolution": 0.05,
+                        "Swtype": "rep",
+                        "const_type": "Mono",
+                        "Rmin": 2.4644401338453594
+                },
+                "Cs-Cs": {
+                        "Rcut": 5.999530000001474,
+                        "Resolution": 0.05,
+                        "Swtype": "rep",
+                        "const_type": "Mono",
+                        "Rmin": 4.275974079999999
+                },
+                "Cs-Pb": {
+                        "Rcut": 5.975240730765582,
+                        "Resolution": 0.05,
+                        "Swtype": "rep",
+                        "const_type": "Mono",
+                        "Rmin": 4.31298
+                },
+                "Pb-Pb": {
+                        "Rcut": 5.999543940000001,
+                        "Resolution": 0.05,
+                        "Swtype": "rep",
+                        "const_type": "Mono",
+                        "Rmin": 4.02930702374269
+                }
+        },
+        "Onebody": [
+                "Br",
+                "Cs",
+                "Pb"
+        ]
+}
